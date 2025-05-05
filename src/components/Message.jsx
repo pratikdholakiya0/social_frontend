@@ -14,7 +14,7 @@ const MessagesPage = () => {
       id: 1, 
       name: "Alex Johnson", 
       username: "@alexj", 
-      lastMsg: "Hey, how are you doing?", 
+      lastMsg: "Fuck you!!!!", 
       time: "2h ago", 
       unread: true 
     },
