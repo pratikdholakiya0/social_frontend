@@ -10,7 +10,7 @@ const Profile = () => {
     name: 'chintan bhutiya',
     username: '@chintu69',
     bio: 'Digital creator | Coding enthusiast | Coffee lover',
-    location: 'New York, USA',
+    location: 'porbandar, Gujarat',
     website: 'chintan.com',
     followers: 1250,
     following: 450,
