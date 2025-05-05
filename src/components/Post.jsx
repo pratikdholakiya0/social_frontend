@@ -101,7 +101,7 @@ const Post = ({ post, onLike, onComment, onShare }) => {
         {/* Comment Input */}
         <form onSubmit={handleCommentSubmit} className="flex items-center space-x-3">
           <img
-            src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+            src="https://images.hdqwalls.com/download/son-goku-dragon-ball-super-5k-anime-1a-2048x2048.jpg"
             alt="Your Profile"
             className="w-8 h-8 rounded-full"
           />

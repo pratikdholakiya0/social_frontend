@@ -7,14 +7,14 @@ import Post from './Post';
 const Profile = () => {
   const [isEditing, setIsEditing] = useState(false);
   const [profileData, setProfileData] = useState({
-    name: 'John Doe',
-    username: '@johndoe',
-    bio: 'Digital creator | Photography enthusiast | Coffee lover',
+    name: 'chintan bhutiya',
+    username: '@chintu69',
+    bio: 'Digital creator | Coding enthusiast | Coffee lover',
     location: 'New York, USA',
-    website: 'johndoe.com',
+    website: 'chintan.com',
     followers: 1250,
     following: 450,
-    posts: 89
+    posts: 69
   });
 
   // Sample posts data
@@ -22,20 +22,20 @@ const Profile = () => {
     {
       id: 1,
       user: {
-        name: 'John Doe',
-        avatar: 'https://via.placeholder.com/40'
+        name: 'chintan bhutiya',
+        avatar: 'https://images.hdqwalls.com/download/son-goku-dragon-ball-super-5k-anime-1a-2048x2048.jpg'
       },
       content: 'Just finished my latest photography project! Check it out!',
-      image: 'https://via.placeholder.com/600x400',
+      image: 'https://th.bing.com/th/id/OIP.twShHXy5ikGjP-cjGlsVFQHaEK?cb=iwp1&rs=1&pid=ImgDetMain',
       timestamp: '2 hours ago',
       likes: 245,
       comments: [
         {
           user: {
-            name: 'Jane Smith',
-            avatar: 'https://via.placeholder.com/32'
+            name: 'pratik dholakiya',
+            avatar: 'https://yt3.ggpht.com/a/AGF-l79pRkJMjEmWQJSyNfBDcOW2j6Tj_YsxySycFA=s900-c-k-c0xffffffff-no-rj-mo'
           },
-          text: 'Amazing work! The composition is perfect.',
+          text: 'chintan taro photo mast aavyo chhe',
           timestamp: '1 hour ago'
         }
       ],
@@ -45,10 +45,10 @@ const Profile = () => {
       id: 2,
       user: {
         name: 'John Doe',
-        avatar: 'https://via.placeholder.com/40'
+        avatar: 'https://images.hdqwalls.com/download/son-goku-dragon-ball-super-5k-anime-1a-2048x2048.jpg'
       },
       content: 'Beautiful sunset at the beach today 🌅',
-      image: 'https://via.placeholder.com/600x400',
+      image: 'https://th.bing.com/th/id/R.04d26daf397bd912f958423ca939b828?rik=cJi6xNuf7teVrg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f08%2fAwesome-Sunset-Beaches-Backgrounds.jpg&ehk=QyLtFSgSQ6UB9oVUM%2bML72Uhj%2fLvvi%2blldGWRMe%2fHl8%3d&risl=&pid=ImgRaw&r=0',
       timestamp: '1 day ago',
       likes: 189,
       comments: [],
@@ -116,7 +116,7 @@ const Profile = () => {
               <div className="flex items-center space-x-4">
                 <div className="relative">
                   <img
-                    src="https://via.placeholder.com/150"
+                    src="https://images.hdqwalls.com/download/son-goku-dragon-ball-super-5k-anime-1a-2048x2048.jpg"
                     alt="Profile"
                     className="w-24 h-24 rounded-full object-cover"
                   />
