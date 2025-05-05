@@ -1,7 +1,14 @@
 import { FiSearch, FiMessageCircle } from 'react-icons/fi';
 import Sidebar from './Sidebar';
+import { useNavigate } from 'react-router-dom';
 
 const MessagesPage = () => {
+  const navigate = useNavigate();
+
+  const handleNavigate = ()=>{
+    navigate("/chat")
+  }
+
   const conversations = [
     { 
       id: 1, 
@@ -45,6 +52,7 @@ const MessagesPage = () => {
             className={`p-4 rounded-lg cursor-pointer ${
               conv.unread ? "bg-blue-50 border border-blue-100" : "bg-white border border-gray-100"
             }`}
+            onClick={handleNavigate}
           >
             <div className="flex items-center space-x-3">
               <div className="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center text-gray-600 font-bold">

@@ -9,6 +9,7 @@ import Home from './components/Home';
 import FriendsPage from './components/Friend';
 import NotificationsPage from './components/Notification';
 import MessagesPage from './components/Message';
+import Chatting from './components/Chat';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/messages" element={<MessagesPage/>} />
         <Route path="/stories" element={<Stories />} />
         <Route path="/search" element={<Search />} />
+        <Route path="/chat" element={<Chatting />} />
       </Routes>
     </Router>
   );
