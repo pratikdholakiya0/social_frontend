@@ -169,7 +169,7 @@ const Home = () => {
               <div className="flex flex-col items-center">
                 <div className="relative">
                   <img
-                    src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                    src="https://images.hdqwalls.com/download/son-goku-dragon-ball-super-5k-anime-1a-2048x2048.jpg"
                     alt="Your Story"
                     className="w-16 h-16 rounded-full border-4 border-indigo-500"
                   />
@@ -182,7 +182,7 @@ const Home = () => {
               {[1, 2, 3, 4, 5].map((story) => (
                 <div key={story} className="flex flex-col items-center">
                   <img
-                    src={`https://images.unsplash.com/photo-${1500000000000 + story}?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80`}
+                    src={`https://static.vecteezy.com/system/resources/previews/036/280/650/large_2x/default-avatar-profile-icon-social-media-user-image-gray-avatar-icon-blank-profile-silhouette-illustration-vector.jpg`}
                     alt={`Story ${story}`}
                     className="w-16 h-16 rounded-full border-4 border-indigo-500"
                   />
@@ -196,7 +196,7 @@ const Home = () => {
           <div className="bg-white rounded-2xl shadow-sm p-6 mb-6">
             <div className="flex items-center space-x-4 mb-4">
               <img
-                src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+                src="https://images.hdqwalls.com/download/son-goku-dragon-ball-super-5k-anime-1a-2048x2048.jpg"
                 alt="Your Profile"
                 className="w-10 h-10 rounded-full"
               />
